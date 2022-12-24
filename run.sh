@@ -1,4 +1,4 @@
-deepspeed run_speech_recognition_seq2seq_streaming_bayar.py \
+deepspeed run_speech_recognition_seq2seq_streaming_mikr.py \
     --deepspeed="ds_config.json" \
     --model_name_or_path="openai/whisper-small" \
     --dataset_name="mozilla-foundation/common_voice_11_0" \
